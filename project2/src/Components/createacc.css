@@ -1,0 +1,104 @@
+
+
+/* Container for the whole form */
+.container1 {
+  width: 350px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 15px;
+  background-color: #de77a9;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Heading */
+.container1 h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 28px;
+  color: #333;
+}
+
+/* Common style for input containers */
+.usercont,
+.emailcont,
+.pass {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 8px 12px;;
+  background-color: white;
+  transition: border 0.3s;
+}
+
+
+
+/* Image icons */
+.usercont img,
+.emailcont img,
+.pass img {
+  margin-right: 10px;
+}
+
+/* Input fields */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  border: none;
+  outline: none;
+  font-size: 16px;
+  flex: 1;
+  background: transparent;
+}
+
+/* Button */
+.btn {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn button {
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+
+}
+
+.btn button:hover {
+  background-color: #357abd;
+}
+
+/*body {
+    border-style: inset;
+    margin-top: 20px;
+    width: 600px;
+    text-align: center;
+    padding: 30px;
+    
+  }
+.usercont,
+.emailcont,
+.pass {
+
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #fafafa;
+}
+.btn{
+    align-content: center;
+    margin-top: 40px;
+  
+  
+  
+
+}*/

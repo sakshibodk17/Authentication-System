@@ -1,0 +1,41 @@
+
+  .container{
+  width: 350px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 15px;
+  background-color: #de77a9;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .container h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 32px;
+    color: #333;
+  }
+  .usercont,
+  .emailcont,
+  .pass {
+  
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: blanchedalmond;
+  }
+.btn{
+    align-content: center;
+    margin-top: 40px;
+    
+}
+#p1{
+  font-weight: bold;
+  font-size: larger;
+}
+#a1{
+  font-weight: bold;
+  font-size: larger;
+}

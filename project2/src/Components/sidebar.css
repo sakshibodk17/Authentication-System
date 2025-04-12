@@ -1,0 +1,26 @@
+
+.sidebar {
+    margin-top: 1%;
+    width: 200px;
+    background-color: hsl(240, 83%, 47%);
+    color: white;
+    padding: 20px;
+  
+   
+  }
+  
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin: 20px 0;
+  }
+  
+  .sidebar a {
+    color: white;
+    display: block;
+  }
+  
